@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar, .footer, header {
+    background-color: #1f1f1f;
+}
+
+.nav-link {
+    color: #e0e0e0;
+}
+
+.nav-link:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+footer p {
+    color: #e0e0e0;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-collapse.show .navbar-nav {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
